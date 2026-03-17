@@ -1,0 +1,21 @@
+{
+  "name": "kova-ai-extension",
+  "version": "0.1.0",
+  "description": "Kova IDE core AI extension",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "scripts": {
+    "build": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test": "npm run test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
